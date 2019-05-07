@@ -1,0 +1,10 @@
+[pull]
+	rebase = true
+[rebase]
+	autoStash = true
+	autoSquash = true
+[user]
+	name = Jun Jie Ng
+	email = jun@backbase.com
+[core]
+	excludesfile = /Users/jun/.gitignore_global
