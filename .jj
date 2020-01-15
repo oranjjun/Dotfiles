@@ -1,7 +1,3 @@
-alias mbr="mvn blade:run"
-alias mcdb!="mvn clean install -Pclean-database"
-alias mbbp="mvn bb:provision"
-alias mbbi="mvn bb:import-experiences"
 alias dm-disk='docker run --rm -it -v /:/docker alpine:edge $@'
 alias dvm='docker run -it --rm --privileged --pid=host justincormack/nsenter1'
 
