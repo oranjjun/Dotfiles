@@ -7,4 +7,6 @@
 	name = Jun Jie Ng
 	email = jun@backbase.com
 [core]
-	excludesfile = /Users/jun/.gitignore_global
+	excludesfile = ~/.gitignore_global
+[push]
+	default = current

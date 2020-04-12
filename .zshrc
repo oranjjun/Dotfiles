@@ -70,6 +70,7 @@ plugins=(
   colored-man-pages
   mvn
   npm
+  zsh-sdkman
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -103,7 +104,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-DEFAULT_USER=jun
+DEFAULT_USER=`whoami`
 
 source ~/.jj
 source ~/.bb
