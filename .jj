@@ -9,7 +9,3 @@ export PATH="/usr/local/sbin:$PATH"
 export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 export PATH="/usr/local/opt/helm@2/bin:$PATH"
 export LC_ALL=en_US.UTF-8
-
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/Users/jun/.sdkman"
-[[ -s "/Users/jun/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/jun/.sdkman/bin/sdkman-init.sh"

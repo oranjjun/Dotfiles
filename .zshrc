@@ -70,7 +70,8 @@ plugins=(
   colored-man-pages
   mvn
   npm
-  zsh-sdkman
+  kubectl
+  helm
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -105,6 +106,10 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 DEFAULT_USER=`whoami`
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/jun/.sdkman"
+[[ -s "$SDKMAN_DIR/bin/sdkman-init.sh" ]] && source "$SDKMAN_DIR/bin/sdkman-init.sh"
 
 source ~/.jj
 source ~/.bb
