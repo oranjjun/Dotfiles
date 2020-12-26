@@ -179,8 +179,8 @@ set expandtab
 set smarttab
 
 " 1 tab == 4 spaces
-set shiftwidth=4
-set tabstop=4
+set shiftwidth=2
+set tabstop=2
 
 " Linebreak on 500 characters
 set lbr
@@ -385,7 +385,6 @@ endfunction
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => JJ
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-set number
 set showcmd
 noremap <Up> <NOP>
 noremap <Down> <NOP>
